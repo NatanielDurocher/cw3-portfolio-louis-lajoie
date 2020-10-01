@@ -2,75 +2,95 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Sarabun:wght@700&display=swap"
           rel="stylesheet">
-    <link rel="stylesheet" href="scss/main.scss">
+
+    <link rel="stylesheet" href="css/main.css">
+
 
 </head>
 <body>
-<header>
-    <div class="wrapper">
-        <img src="images/logo.svg" alt="">
-        <h2>Louis Lajoie</h2>
-        <ul>
-            <li>Accueil</li>
-            <li>À propos</li>
-            <li>Réalisations</li>
-            <li>Réalisations</li>
-        </ul>
+<header class="header-page">
+    <div class="wrapper flex">
+        <div class="logo">
+            <h2>
+                <img src="images/logo.svg" alt="">
+                Louis Lajoie
+            </h2>
+        </div>
+        <nav class="nav-princ">
+            <ul>
+                <li>Accueil</li>
+                <li>À propos</li>
+                <li>Réalisations</li>
+                <li>Réalisations</li>
+            </ul>
+        </nav>
     </div>
 </header>
 <div class="hero">
-    <div class="wrapper">
+    <div class="wrapper flex">
         <div class="texthero">
             <h4>Intégrateur web</h4>
             <h1>Louis Lajoie</h1>
             <p>Vous cherche un spécialiste en développement web, en animation de page web et en référencement, vous
                 l’avez trouvé!</p>
-            <a href="">Voir mes réalisations</a>
+            <a href="#" class="btn btn-medium">Voir mes réalisations</a>
         </div>
-        <img src="images/louis-lajoie.png" alt="">
+        <img class="photo" src="images/louis-lajoie.png" alt="">
     </div>
 </div>
-<section>
-    <div class="wrapper">
+<section class="wrapper creations">
         <article>
+            <header>
             <img src="images/cogs.svg" alt="">
+            </header>
             <h3>Création de sites web</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, ut!</p>
         </article>
         <article>
+            <header>
             <img src="images/Desktop.svg" alt="">
+            </header>
             <h3>Conception graphique</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum deserunt enim inventore laboriosam
                 praesentium quos reprehenderit soluta voluptatibus.</p>
         </article>
         <article>
+            <header>
             <img src="images/camera.svg" alt="">
+            </header>
             <h3>Photographie</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis incidunt minus sequi totam. Autem!</p>
         </article>
         <article>
+            <header>
             <img src="images/stats-dots.svg" alt="">
+            </header>
             <h3>Référencement</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dicta fugiat magni qui.</p>
         </article>
         <article>
+            <header>
             <img src="images/share.svg" alt="">
+            </header>
             <h3>Médias sociaux</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate itaque odio optio porro vitae?
                 Provident, quam?</p>
         </article>
         <article>
+            <header>
             <img src="images/pencil.svg" alt="">
+            </header>
             <h3>Illustrations</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo?</p>
         </article>
-    </div>
 </section>
 <footer>
-    <div class="wrap">
+    <div class="wrapper">
         <p>Expert TIM ©. Les icônes sont récupérés sur le site icomoon.io</p>
     </div>
 </footer>
